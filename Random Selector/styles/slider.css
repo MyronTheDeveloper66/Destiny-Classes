@@ -1,0 +1,45 @@
+
+.wrap {
+    width: 100%;
+    height: 30em;
+    position: relative;
+    overflow: hidden;
+    background:;
+    text-align: center;
+    margin-top: 3em;
+}
+.wrap header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+}
+.wrap header label {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    padding: 0 1em;
+    color: #e7dfdd;
+    font-size: 1.84em;
+}
+.img {
+    margin-top: 4.7em;
+    height: 20.2em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-position:  ;
+    background-size: cover;
+    transition: left 0s .55s;
+}
+[id^="slide"]:checked + .img {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+

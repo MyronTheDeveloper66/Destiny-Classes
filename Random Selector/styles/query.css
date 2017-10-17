@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 0 275px;
+    }
+    .wrap {
+       width: 95%; 
+       height: 32em;
+       margin-top: 0.2em;
+    }
+    #results {
+        margin-top: 2em;
+    }
+}

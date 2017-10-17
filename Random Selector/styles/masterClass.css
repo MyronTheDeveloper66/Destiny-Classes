@@ -1,0 +1,173 @@
+body {
+    margin: 0 auto;
+    padding: 1;
+}
+.container, #home-results {
+    text-align: center;
+    background: #000;
+    height: 40.3em;
+}
+.banner {
+    width: 33%;
+    height: 30em;
+    display: inline-block;
+    text-align: center;
+}
+.banner h4 {
+    color: #e7dfdd;
+    font-size: 1.4em;
+    transition-duration: 0.6s;
+    font-family: serif;
+}
+.class-image {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.6s;
+}
+.banner:hover .class-image {
+    filter: brightness(1.6);
+    
+}
+.banner:hover h4 {
+    color:#a239ca;
+}
+header {
+    background: #000000;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 3.7em;
+}
+header h1 {
+    display: inline-block;
+    color: #e7dfdd;
+    font-size: 2.3em;
+    position: relative;
+    bottom: 0.6em;
+    font-family: serif;
+}
+nav {
+    display: inline-block;
+    font-family: sans-serif;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+    left: 13em;
+}
+nav li {
+    display: inline-block;
+    margin: 0 0.7em;
+    width: 6.7em;
+    text-align: center;
+    padding: 0.3em;
+    height: 1.3em;
+    position: relative;
+    bottom: 1.1em;
+    padding-top: 1.33em;
+    padding-bottom: 0.7em;
+    transition-duration: 0.5s;
+}
+nav li:hover {
+    background-color: #fff;
+}
+nav a {
+    text-decoration: none;
+    color: #e7dfdd;
+    font-size: 1.2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.5em;
+    transition-duration: 0.3s;
+}
+nav a:hover {
+    color: #000;
+}
+.class-heading {
+    text-align: center;
+    height: 15em;
+    width: 100%;
+}
+.class-heading h2 {
+    display: inline-block;
+    font-size: 3.3em;
+    color: #e7dfdd;
+    font-family: serif;
+}
+#titan-heading {
+    background: linear-gradient(#000 33%, transparent),
+                url("/images/ClassSelector/titan.jpg");
+    background-position: -13em -5em;
+    background-size: 98em;
+    background-repeat: no-repeat;
+}
+#warlock-heading{
+    background: linear-gradient(#000 33%, transparent),
+                url("/images/ClassSelector/warlock.jpg");
+    background-position: -13em -5em;
+    background-size: 98em;
+    background-repeat: no-repeat;}
+#hunter-heading{
+    background: linear-gradient(#000 55%, transparent),
+                url("/images/ClassSelector/hunter.jpg");
+    background-position: -13em -9em;
+    background-size: 98em;
+    background-repeat: no-repeat;}
+.class-bio {
+    height: 17.5em;
+    background: #000;
+    text-align: center;
+}
+.class-icon {
+    height: 6.2em;
+    width: 10%;
+    margin: 0 45%
+}
+.description {
+    display: inline-block;
+    color: #e7dfdd;
+    height: 8em;
+    margin-top: 2em;
+    width: 100%;
+    border: ;
+    word-wrap: break-word;
+    line-height: 1.3;
+    font-size: 1.09em;
+    font-family: sans-serif;
+}
+.subclasses {
+    height: 28em;
+    width: 100%;
+}
+.links {
+    color: #000;
+    font-size: 1em;
+}
+.subclasses h4 {
+    font-family: serif;
+}
+.subclasses p {
+    font-family: sans-serif;
+}
+.section {
+    width: 31.95%;
+    height: 20em;
+    display: inline-block;
+    text-align: center;
+}
+.section img {
+    height: 13em;
+    width: 70%;
+    margin: 0 15%;
+    border-radius: 50%;
+    border: solid #000 0.6em;
+}
+.subclasses #random {
+    background: #000;
+    margin: 0 40%;
+    margin-bottom: 4em;
+    height: 3em;
+    width: 20%;
+    font-family: sans-serif;
+    color: #e7dfdd;
+    display: block;
+}

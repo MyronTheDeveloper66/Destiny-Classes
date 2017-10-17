@@ -1,0 +1,47 @@
+#circle {
+    width: 40%;
+    height: 35em;
+    margin: 0 30%;
+    margin-top: 5em;
+    border: solid 1.2em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#circle-container {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   margin:;
+   position: relative;
+}
+.section {
+   border: solid 0.3em;
+}
+#section-one {
+   background: red; 
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%; height: 53%;
+   transform-origin: ;
+}
+#section-two {
+   background: blue;
+   overflow: hidden;
+   position: absolute;
+   bottom: -1em; right: 0;
+   width: 50%; height: 53%;
+   transform-origin: top left;
+   transform: skewY(-10deg);
+}
+#section-three {
+   background: green;
+   overflow: hidden;
+   position: absolute;
+   bottom: -1em; left: 0; 
+   width: 50%; height: 53%;
+   transform-origin: top right;
+   transform: skewY(10deg);
+   border-top-right-radius: ;
+}
